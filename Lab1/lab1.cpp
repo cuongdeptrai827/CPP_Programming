@@ -1,7 +1,3 @@
-//
-// Created by Cuong on 2/12/2024.
-//
-
 #include <iostream>
 #include "lab1.h"
 
