@@ -3,7 +3,8 @@
 
 using namespace std;
 
-void Task1(){
+void Task2(){
+    cout << " Task 2 : Swap 2 integer numbers " << endl;
     int a, b;
     cin >> a >> b;
     swap2num(&a, &b);
@@ -12,7 +13,8 @@ void Task1(){
     cout << a << " " << b << endl;
 }
 
-void Task6(){
+void Task7(){
+    cout << " Task 7 : Round real numbers " << endl;
     double d; cin >> d;
     roundRealNum(&d);
     cout << d << endl;
@@ -21,7 +23,8 @@ void Task6(){
     cout << d2 << endl;
 }
 
-void Task9(){
+void Task10(){
+    cout << " Task 10 : Multiple of a complex number with a real number " << endl;
     Complex c;
     double a;
     cin >> c.real >> c.imag >> a;
@@ -31,7 +34,8 @@ void Task9(){
     cout << c.real << "+" << c.imag << "i" << endl;
 }
 
-void Task14(){
+void Task13(){
+    cout << " Task 13 : Transpose a 3x3 matrix " << endl;
     Matrix m;
     for (int i = 0; i < 3; i++){
         for (int j = 0; j < 3; j++){
@@ -59,9 +63,9 @@ void Task14(){
 }
 
 int main(){
-    //Task1();
-    //Task6();
-    //Task9();
-    //Task14();
+    Task2();
+    Task7();
+    Task10();
+    Task13();
     return 0;
 }
